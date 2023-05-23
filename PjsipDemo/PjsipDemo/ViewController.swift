@@ -129,7 +129,7 @@ class ViewController: UIViewController {
         }
         let uName = self.sipUsernameTField.text ?? ""
         let pwd = self.sipPasswordTField.text ?? ""
-        let id = strdup("sip:\(uName)@fs.dics.se:6443");
+        let id = strdup("sip:\(uName)@fs.dics.se:12004");
         let username = strdup(uName);
         let passwd = strdup(pwd);
         let realm = strdup("*");
