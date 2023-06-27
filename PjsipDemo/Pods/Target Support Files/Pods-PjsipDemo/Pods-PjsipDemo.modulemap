@@ -1,0 +1,6 @@
+framework module Pods_PjsipDemo {
+  umbrella header "Pods-PjsipDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
